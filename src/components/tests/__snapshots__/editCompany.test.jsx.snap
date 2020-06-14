@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditCompany.jsx tests should render the correct component 1`] = `
+"<div>
+  <form onSubmit={[Function: onSubmit]}>
+    <label>
+      Name
+      :
+      <input required={true} type=\\"text\\" value={[undefined]} onChange={[Function: onChange]} />
+    </label>
+    <label>
+      Country
+      :
+      <input required={true} type=\\"text\\" value={[undefined]} onChange={[Function: onChange]} />
+    </label>
+    <label>
+      Creation date
+      :
+      <input required={true} type=\\"date\\" value={[undefined]} onChange={[Function: onChange]} />
+    </label>
+    <label>
+      sector
+      :
+      <input required={true} type=\\"text\\" value={[undefined]} onChange={[Function: onChange]} />
+    </label>
+    <label>
+      Number of customers:
+      <input required={true} type=\\"number\\" min={0} value={[undefined]} onChange={[Function: onChange]} />
+    </label>
+    <label>
+      Active:
+      <select value={[undefined]} onChange={[Function: onChange]}>
+        <option value={true}>
+          true
+        </option>
+        <option value={false}>
+          false
+        </option>
+      </select>
+    </label>
+    <div>
+      <button type=\\"submit\\">
+        Save
+      </button>
+    </div>
+  </form>
+</div>"
+`;

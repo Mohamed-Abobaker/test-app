@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisplayCompanies.jsx tests should render the correct component 1`] = `
+"<div>
+  <p />
+  <button onClick={[Function: onClick]}>
+    Update
+  </button>
+  <button onClick={[Function: onClick]}>
+    Remove
+  </button>
+</div>"
+`;
